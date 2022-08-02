@@ -1,0 +1,95 @@
+header {
+  background-color: #D1C0A8;
+  padding: 30px;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+h5 {
+  font-family: "Square Peg";
+  text-align: center;
+  font-size: 35px;
+}
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #b29f9f;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+img {
+  height: 500 px;
+  width: 500px;
+  float: right;
+  margin-left: 25px;
+}
+
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+div {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+div:hover {
+  background-color: rgba(235, 225, 217, 0.2);
+}
+
+div h3:only-child {
+  padding-left: 20px;
+}
+
+section {
+  border-bottom: 1px solid slategray;
+  padding: 20px 0px;
+}
+
+section:last-child {
+  border: none;
+}
+
+h1 {
+  font-weight: 100;
+  color: slategray;
+  font-size: 3rem;
+  text-align: center;
+}
+
+about {
+ color: slategray;
+  font-family: Arial;
+  text-align: left;
+  overflow: hidden;
+  line-height: 2;
+}
+
